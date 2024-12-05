@@ -1,4 +1,3 @@
-[CODEBLOCK]
 from flask import Flask, request
 import sqlite3
 from flask_wtf.csrf import CSRFProtect
@@ -18,4 +17,3 @@ return str(results)
 
 if name == 'main':
 app.run(debug=True)
-[/CODEBLOCK
